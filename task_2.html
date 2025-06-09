@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="Dashboard.css">
+        <style>
+            .options{
+             margin: 8px; 
+            padding: 10px 20px;
+            background-color:goldenrod;
+            }
+        </style>
+    </head>
+    <body>
+        <container style="display: flex; flex-direction: row;">
+
+            <div style="display: flex; flex-direction: column; background-color: rgb(99, 159, 9); align-items: center; height: 100vh; width: 300px; padding-top: 20px;">
+                <h2 style="color: goldenrod; margin-bottom: 20px; text-shadow: 2px 2px 1px rgba(15, 12, 12, 0.5);">
+                    School Dashboard
+                  </h2>
+                  
+                <button class= "options">Dashboard</button>
+                <button class= "options">Student</button>
+                <button class= "options">Teacher</button>
+                <button class= "options">Classes</button>
+                <button class= "options">Exams</button>
+                <button class= "options">Library</button>
+                <button class= "options">Settings</button>
+            </div>
+
+            <div style="display: flex; flex-direction: column; flex: 1; align-items: center; padding: 40px 20px;">
+                <h2 style="margin-bottom: 30px;color:rgb(60, 203, 12);text-shadow: 1px 0px 0px rgba(15, 12, 12, 0.5);">Welcome to School Dashboard</h2>
+
+                <div style="display: flex; flex-direction: column; gap: 20px; width:700px">
+
+                    <div style="display: flex; gap: 40px; justify-content: center;">
+                        <div style="background-color: rgb(255, 255, 255); ; border-radius: 10px; text-align: center; box-shadow: 0 0 8px rgba(0,0,0,0.1); width:100%">
+                            <h3 style="color: goldenrod; margin-bottom: 20px; text-shadow: 1px 0px 0px rgba(15, 12, 12, 0.5);">Total Students</h3>
+                            <h3 style="color:rgb(20, 205, 20)">500</h3>
+                        </div>
+                        <div style="background-color: rgb(255, 255, 255);  border-radius: 10px; text-align: center; box-shadow: 0 0 8px rgba(0,0,0,0.1); width:100%">
+                            <h3 style="color: goldenrod; margin-bottom: 20px; text-shadow: 1px 0px 0px rgba(15, 12, 12, 0.5);">Total Teachers</h3>
+                            <h3 style="color:rgb(20, 205, 20)">50</h3>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 40px; justify-content: center;">
+                        <div style="background-color: rgb(255, 255, 255);  border-radius: 10px; text-align: center; box-shadow: 0 0 8px rgba(0,0,0,0.1);width:100%">
+                            <h3 style="color: goldenrod; margin-bottom: 20px; text-shadow: 1px 0px 0px rgba(15, 12, 12, 0.5);">Classes</h3>
+                            <h3 style="color:rgb(20, 205, 20)">20</h3>
+                        </div>
+                        <div style="background-color: rgb(255, 255, 255);  border-radius: 10px; text-align: center; box-shadow: 0 0 8px rgba(0,0,0,0.1);width:100%">
+                            <h3 style="color: goldenrod; margin-bottom: 20px; text-shadow: 1px 0px 0px rgba(15, 12, 12, 0.5);">Upcoming Exams</h3>
+                            <h3 style="color:rgb(20, 205, 20)">5</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </container>
+    </body>
+</html>
