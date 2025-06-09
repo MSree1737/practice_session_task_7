@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Music World</title>
+  <style>
+    body {
+      background-image: url("https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1650&q=80");
+      background-size: cover;
+      background-position: center;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      position: relative;
+      color: white;
+    }
+
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6); 
+      z-index: -1;
+    }
+
+    .Music-world {
+      border: 1px solid white;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      color: white;
+      font-size: 2rem;
+      backdrop-filter: blur(10px);
+      box-shadow: 0px 0px 10px white;
+      border-radius: 10px;
+      text-align: center;
+      margin: 20px auto;
+      width: fit-content;
+    }
+
+    .Music-world:hover {
+      box-shadow: 0px 0px 20px white;
+      transition: 1s;
+      font-size: 2.5rem;
+    }
+
+    .activity {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      border: 1px solid white;
+      padding: 10px;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.4);
+      margin: 20px;
+    }
+
+   
+    .box {
+      color: white;
+      border: 1px solid white;
+      padding: 0.5rem 1rem;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.7);
+      margin: 5px;
+      cursor: pointer;
+    }
+
+    .box:hover {
+      box-shadow: 0px 0px 20px white;
+      transition: 0.5s;
+    }
+
+    .balck {
+      border: 1px solid white;
+      padding: 20px;
+      margin: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+    }
+
+    .albums {
+      border: 2px solid white;
+      margin: 10px;
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+    }
+
+    .albums:hover {
+      box-shadow: inset 0px 0px 10px white;
+      transition: 1s;
+    }
+
+    h3 {
+      color: white;
+      padding-left: 20px;
+      padding-bottom: 10px;
+      border-bottom: 2px solid white;
+      margin-bottom: 10px;
+    }
+
+    img {
+      margin: 10px;
+      border-radius: 15px;
+      width: 160px;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0px 0px 30px white;
+    }
+  </style>
+</head>
+<body>
+  <div class="Music-world">Music World</div>
+
+  <div class="activity">
+    <div class="box">HOME</div>
+    <div class="box">ABOUT US</div>
+    <div class="box">CATEGORY</div>
+    <div class="box">PRODUCTION</div>
+    <div class="box">GALLERY</div>
+    <div class="box">CONTACT US</div>
+    <div class="box">LOGIN</div>
+  </div>
+
+  <div class="balck">
+    <div class="albums">
+      <h3>... Latest Albums ...</h3>
+      <img src="https://i.scdn.co/image/ab67616d0000b273d64f0e6c1fd62720f4f4124b" alt="Album 1">
+      <img src="https://i.scdn.co/image/ab67616d0000b273cd513ab5171ba9402cc7f80d" alt="Album 2">
+      <img src="https://i.scdn.co/image/ab67616d0000b27361e30c4d2e7d6ee8e621c5b1" alt="Album 3">
+      <img src="https://i.scdn.co/image/ab67616d0000b273e66a6a09f3b95aa8c11e3f36" alt="Album 4">
+      <img src="https://i.scdn.co/image/ab67616d0000b273777c0d4c2ad1c5e5ccfaebbd" alt="Album 5">
+    </div>
+
+    <div class="albums">
+      <h3>... Top Songs of the Year ...</h3>
+      <img src="https://i.scdn.co/image/ab67616d0000b27324f59808b24bcb9797b2f8e5" alt="Song 1">
+      <img src="https://i.scdn.co/image/ab67616d0000b2732f02f9dbb5d1b3478d8f54a7" alt="Song 2">
+      <img src="https://i.scdn.co/image/ab67616d0000b27351d7d088d88b96487f6adf1b" alt="Song 3">
+      <img src="https://i.scdn.co/image/ab67616d0000b2739b2c5c7b0b4b79e34b4b1e9e" alt="Song 4">
+      <img src="https://i.scdn.co/image/ab67616d0000b2730cfb7b8e39d110a02e7687c3" alt="Song 5">
+    </div>
+
+    <div class="albums">
+      <h3>... Re-Watch Again ...</h3>
+      <img src="https://i.scdn.co/image/ab67616d0000b2731b84d3f82c7e11e1e8c499b6" alt="Watch 1">
+      <img src="https://i.scdn.co/image/ab67616d0000b273e1918c2a392c8c4e79907bb6" alt="Watch 2">
+      <img src="https://i.scdn.co/image/ab67616d0000b27303e9f5b8e57b446b4b1e5b8b" alt="Watch 3">
+      <img src="https://i.scdn.co/image/ab67616d0000b273c68249c1557c7601e0a4b0c4" alt="Watch 4">
+      <img src="https://i.scdn.co/image/ab67616d0000b273b6b49eb57bdf949bc172d411" alt="Watch 5">
+    </div>
+  </div>
+</body>
+</html>
